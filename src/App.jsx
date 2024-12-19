@@ -74,7 +74,7 @@ const App = () => {
 
   return (
     <>
-      <div className='md:w-[45%] w-80 mx-auto bg-gray-600 mt-10 md:px-12 p-6 md:py-10 rounded-lg'>
+      <div className='md:w-[45%] w-80 mx-auto bg-gray-600 mt-10 md:px-12 p-4 md:py-10 rounded-lg'>
         <Search search={search} setSearch={setSearch} category={category} setCategory={setCategory} />
       </div>
       <div className='md:p-20 p-8 mt-10 flex gap-2'>
