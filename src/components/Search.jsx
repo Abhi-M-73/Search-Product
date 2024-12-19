@@ -5,7 +5,7 @@ const Search = ({ search, setSearch , category, setCategory}) => {
 
     return (
         <>
-            <div className="flex gap-2 items-center border border-gray-300 rounded-lg p-2 w-full md:max-w-xl max-w-2xl">
+            <div className="flex gap-2 items-center border border-gray-300 rounded-lg p-1 w-full md:max-w-xl max-w-2xl">
                 <input
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
